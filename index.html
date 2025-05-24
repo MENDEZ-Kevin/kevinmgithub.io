@@ -1,88 +1,80 @@
 <!DOCTYPE html>
-<html lang="es">
+    <html lang="es"> 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #005f73;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #0a9396;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 2rem;
-    }
-    footer {
-      background-color: #005f73;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <title>Web site de Kevin Mendez</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <p class="logo">Mendez</p>
+            <nav>
+                <a href="#quien-soy">¿Quien soy?</a>
+                <a href="#mis-hobbies">Mis Hobbies</a>
+                <a href="#mis-habilidades">Mis Habilidades</a>
+                
+            </nav>
+        </div>            
+    </header>
 
-  <header>
-    <h1>Bienvenido a Mi Página Web</h1>
-  </header>
+    <section id="mio">
+        <h1>Esta es mi Pagina Personal <br>de Kevin Mendez Roca</h1>
+        <button>CONOCEME MAS</button>
+    </section>
+    
+    <section id="quien-soy">
+        <div class="container">
+            <div class="img-container">
+                <h2>Soy Ing. Kevin Mendez</h2>
+                <p>Soy estudiante de la Universidad Continental , Creci en la ciudad de Huancayo                 </p>
+            </div>
+            <div class = "carta">
 
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contacto</a>
-    <a href="#acerca">Acerca de</a>
-  </nav>
-
-  <main>
-    <section id="inicio">
-      <h2>Inicio</h2>
-      <p>Esta es una página de ejemplo con estructura HTML básica. Aquí puedes colocar información de bienvenida o novedades.</p>
+            </div> 
+            <button>Quien soy</button>
+        </div>
     </section>
 
-    <section id="servicios">
-      <h2>Servicios</h2>
-      <p>Describe los servicios que ofreces aquí.</p>
+    <section id="mis-hobbies">
+        <div class="container">
+            <div class="img-container">
+                <h2>Mis Hobbies es:</h2>
+                <p>me gusta hacer deporte, jugar futbol, videojuegos.------.
+                  </p>
+            </div>    
+            <button>Mi hobbies</button>
+        </div>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>Agrega información de contacto o un formulario aquí.</p>
+    <section id="mis-habilidades">
+        <div class="container">
+            <h2>Mis habiliades</h2>
+            <div class="habi">
+                <div class="carta">
+                    <h3>Redes CCNA Cisco</h3>
+                    <p>Soy especialis en rede lan, wlan,man, pan y wan, especialista en Sistema de Cableados</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>It Essential Cisco</h3>
+                    <p>Soy Experto en Mantenimineot y reparación de dispositivos, Hardware software, etc.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Python</h3>
+                    <p>soy programador en Python básico, en en Python orientado a objetos </p>
+                    <button>+ Info</button>
+                </div>
+
+            </div>
+
+            
+        </div>
     </section>
-
-    <section id="acerca">
-      <h2>Acerca de</h2>
-      <p>Cuenta un poco sobre ti o tu empresa.</p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Mi Página Web. Todos los derechos reservados.
-  </footer>
-
+    <footer>
+        <div class="container">
+            <p>&copy;Esta Página es realizado por Mendez Roc@ </p>
+        </div>
+    </footer>
 </body>
 </html>
